@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Quicksand:wght@300..700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+.box-div{
+    box-shadow: 2px 2px 30px;
+    box-shadow: -2px -2px 30px;
+    border-radius: 15px;
+    background: rgb(56,74,97);
+    background: radial-gradient(circle, rgba(56,74,97,1) 0%, rgba(22,37,54,1) 100%);
+    
+    p{
+        color: white;
+    }
+    h2{
+        color: white;
+    }
+    
+    text-align: center;
+    padding: 50px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1230px;
+    border: solid black;
+    justify-content: center;
+}
+
+body{
+    background: #A8B1BC;
+    justify-content: center;
+}
+
+header{
+    border-bottom: solid black 4px;
+    border-top: solid black 4px;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+    
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background: rgb(56,74,97);
+    background: radial-gradient(circle, rgba(56,74,97,1) 0%, rgba(22,37,54,1) 100%);
+    a{
+        padding: 2px;
+        color: white;
+        text-decoration: none;
+    }
+    h1{
+        color: white;
+    }
+
+    li{
+        border-right: 1px solid #bbb;
+        float: left;
+    }
+
+    li a{
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        
+    }
+    ul{
+        border-top: solid black 4px;
+        width: 100%;
+        height: 100%;
+    }
+    
+}
+
+div{
+    margin: 50px;
+}
+
+.direcionador{
+    text-align: center;
+}
+
+.indice{
+    box-shadow: 2px 2px 15px;
+    box-shadow: -2px -2px 15px;
+    width: 350px;
+    margin: 40px;
+    border: solid black 6px;
+    border-radius: 12px;
+    border-style: double;
+    padding: 20px;
+    background: rgb(56,74,97);
+    background: radial-gradient(circle, rgba(56,74,97,1) 0%, rgba(22,37,54,1) 100%);
+    
+    ul a{
+        text-decoration: none;
+    }
+
+    a{
+        color: white;
+    }
+    h2{
+        color: white;
+    }
+}
+
+footer{
+    background: rgb(56,74,97);
+    position: absolute;
+    width: 100%;
+    color: white;
+    left: 0;
+    z-index: 999;
+    padding: 30px;
+    border-top: solid black 4px;
+}
+
+.site{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+
+.active {
+    background-color: green;
+}
+
+.intro{
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.intro-sobre{
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 200px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    border: solid black 2px;
+    width: 600px;
+    box-shadow: 2px 2px 30px;
+    box-shadow: -2px -2px 30px;
+    border-radius: 15px;
+    background: rgb(56,74,97);
+    background: radial-gradient(circle, rgba(56,74,97,1) 0%, rgba(22,37,54,1) 100%);
+    h2{
+        color: white;
+    }
+    p{
+        color: white;
+        text-align: left;
+    }
+
+    img{
+        width: 300px;
+    }
+    
+    a > img{
+        width: 80px;
+        }
+}
+.profile{
+    border-radius: 200px;
+    border: solid black 2px;
+}
+
+h1{
+    font-family: "Quicksand";
+}
+
+p{
+    font-family: "Nunito";
+}
+
+ul{
+    font-family: "Nunito";
+}
+
+h2{
+    font-family: "Quicksand";
+}
+
+footer{
+    font-family: "Quicksand";
+}
+
+.footer-sobre{
+    position: absolute;
+}
+
+.img-jogos{
+    width: 50%;
+    height: auto;
+    max-width: 700px;
+    border-radius: 20px;
+    border: solid white 3px;
+}
+
+.wallpaper{
+    background-size: 100%;
+    background-image: url(img-redes/pc3.jpeg);
+}
