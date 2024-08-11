@@ -32,8 +32,13 @@ html {
 
 body{
     background: #A8B1BC;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
 }
+
+
 
 header{
     border-bottom: solid black 4px;
@@ -111,13 +116,12 @@ div{
 
 footer{
     background: rgb(56,74,97);
-    position: absolute;
     width: 100%;
     color: white;
-    left: 0;
-    z-index: 999;
     padding: 30px;
     border-top: solid black 4px;
+    font-family: "Quicksand";
+    text-align: center;
 }
 
 .site{
@@ -170,7 +174,7 @@ footer{
         }
 }
 .profile{
-    border-radius: 200px;
+    border-radius: 100%;
     border: solid black 2px;
 }
 
@@ -189,15 +193,6 @@ ul{
 h2{
     font-family: "Quicksand";
 }
-
-footer{
-    font-family: "Quicksand";
-}
-
-.footer-sobre{
-    position: absolute;
-}
-
 .img-jogos{
     width: 50%;
     height: auto;
@@ -208,5 +203,6 @@ footer{
 
 .wallpaper{
     background-size: 100%;
-    background-image: url(img-redes/pc3.jpeg);
+    background-image: url(img-redes/pczin.jpg);
+    align-items: center;
 }
